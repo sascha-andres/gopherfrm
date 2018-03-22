@@ -1,0 +1,38 @@
+<div class="row section featured topspace">
+
+  <h2 class="section-title"><span>Our latest meetup</span></h2>
+    {{with .Site.Data.next}}
+    <h3>{{.name}}</h3>
+
+    <h4>Characteristics</h4>
+    <table border=1>
+      <tr>
+        <td>When</td>
+        <td>{{.date}}</td>
+      </tr>
+      <tr>
+        <td>Hosted by</td>
+        <td>{{.location.name}}</td>
+      </tr>
+      <tr>
+        <td>Street</td>
+        <td>{{.location.street}}</td>
+      </tr>
+      <tr>
+        <td>Zip & city</td>
+        <td>{{.location.zipcode}} {{.location.city}}</td>
+      </tr>
+    </table>
+    
+    <h4>Content</h4>
+    <p>
+      {{.speaker}} will present a talk about {{.topic}}<br />
+    </p>
+    <div class="panel panel-cta">
+      <div class="panel-body">
+        {{.description | markdownify}}
+      </div>
+    </div>
+    {{end}}
+
+</div> <!-- / section -->
