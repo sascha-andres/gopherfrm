@@ -1,6 +1,6 @@
 ---
 
-baseURL: "http://gofrm.livingit.de/"
+baseURL: "http://gopherfrm.livingit.de/"
 languageCode: "en-us"
 title: "Frankfurt Rhein-Main Gophers Meetup"
 theme: "hugo-initio"
@@ -51,8 +51,14 @@ menu:
     - name: join
       url: /join
       weight: 3
+    - name: speaker
+      url: /speaker
+      weight: 4
+    - name: past meetups
+      url: /meetup
+      weight: 5
     - name: support us
       url: /support
-      weight: 4
+      weight: 6
 
 min_version: 0.18
