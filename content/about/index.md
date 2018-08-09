@@ -16,5 +16,4 @@ Arne is not a dogmatic, but Go is by far his favorite language. He especially lo
 
 ## Sascha Andres
 
-Loves computer languages in general is was inspired by the book "The Laws of Simplicity" wriiten by John Maeda.
-Go just fits and became his go-to language.
+Loves computer languages in general is was inspired by the book "The Laws of Simplicity" wriiten by John Maeda. Go just fits and became his go-to language.
