@@ -1,7 +1,7 @@
 ---
 title: "about"
 date: 2018-03-22T14:46:58+01:00
-draft: true
+draft: false
 ---
 
 Frankfurt Rhein-Main Gophers Meetup is organized by Anna-Katharina Wickert, Arne Hormann and Sascha Andres.

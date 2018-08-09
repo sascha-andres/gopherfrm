@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /mnt/web210/e2/69/53837969/htdocs/gopherfrm.livingit.de/htpasswd
+Require valid-user

@@ -1,13 +1,13 @@
 ---
 
-baseURL: "http://gopherfrm.livingit.de/"
+baseURL: "https://gopherfrm.livingit.de/"
 languageCode: "en-us"
 title: "Frankfurt Rhein-Main Gophers Meetup"
 theme: "hugo-initio"
 
 params:
   description: "This is a group for anyone interested in the Go programming language and living or staying in Rhein-Main area."
-  homepage: "http://gofrm.livingit.de/"
+  homepage: "https://gofrm.livingit.de/"
   DateForm: "January 2, 2006"
 
   showSubheader: true
@@ -51,12 +51,12 @@ menu:
     - name: join
       url: /join
       weight: 3
-    - name: speaker
-      url: /speaker
-      weight: 4
-    - name: past meetups
-      url: /meetup
-      weight: 5
+    # - name: speaker
+    #   url: /speaker
+    #   weight: 4
+    # - name: past meetups
+    #   url: /meetup
+    #   weight: 5
     - name: support us
       url: /support
       weight: 6
