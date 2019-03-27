@@ -1,64 +1,50 @@
 ---
-
-baseURL: "https://gopherfrm.livingit.de/"
-languageCode: "en-us"
-title: "Frankfurt Rhein-Main Gophers Meetup"
-theme: "hugo-initio"
-
+baseURL: https://gophersfrm.netlify.com/
+languageCode: en-us
+title: Frankfurt Rhein-Main Gophers Meetup
+theme: hugo-initio
 params:
-  description: "This is a group for anyone interested in the Go programming language and living or staying in Rhein-Main area."
-  homepage: "https://gofrm.livingit.de/"
-  DateForm: "January 2, 2006"
-
+  description: Meetup group in Frankfurt/Germany
+  homepage: https://gophersfrm.netlify.com/
+  DateForm: January 2, 2006
   showSubheader: true
-  showServices: true
+  showServices: false
   showDownload: true
   showClients: false
   address: Frankfurt, Leipziger Strasse 12
-  name: "Frankfurt Rhein-Main Gophers Meetup"
-  description: "Meetup group in Frankfurt/Germany"
-  email: "golangFrankfurt@gmail.com"
+  name: Frankfurt Rhein-Main Gophers Meetup
+  email: golangFrankfurt@gmail.com
   phone: "+49123456"
-  year: 2018
-  background: ""
-  favicon: "images/gt_favicon.png"
-
+  year: 2019
+  background: ''
+  favicon: images/gt_favicon.png
   footerEnableContact: true
   footerEnableFollowme: true
-
   social:
-    - title: twitter
-      url: "https://twitter.com/golangFrankfurt"
-      icon: fa-twitter-square
-      footer: true
-      sharethis: true
-      network: twitter
-    - title: email
-      url: "mailto:golangfrankfurt@gmail.com"
-      icon: fa-envelope
-      footer: true
-      sharethis: true
-      network: twitter
-
+  - title: twitter
+    url: https://twitter.com/golangFrankfurt
+    icon: fa-twitter-square
+    footer: true
+    sharethis: true
+    network: twitter
+  - title: email
+    url: mailto:golangfrankfurt@gmail.com
+    icon: fa-envelope
+    footer: true
+    sharethis: true
+    network: twitter
 menu:
   main:
-    - name: home
-      url: /
-      weight: 1
-    - name: about us
-      url: /about
-      weight: 2
-    - name: join
-      url: /join
-      weight: 3
-    # - name: speaker
-    #   url: /speaker
-    #   weight: 4
-    # - name: past meetups
-    #   url: /meetup
-    #   weight: 5
-    - name: support us
-      url: /support
-      weight: 6
-
+  - name: support us
+    url: "/support"
+    weight: 4
+  - name: join
+    url: "/join"
+    weight: 3
+  - name: about us
+    url: "/about"
+    weight: 2
+  - name: home
+    url: "/"
+    weight: 1
 min_version: 0.18
