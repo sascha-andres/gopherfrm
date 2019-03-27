@@ -1,0 +1,21 @@
+---
+
+name: Frankfurt Gophers meetup
+date: 06/04/2017
+location:
+  name: Social Impact Lab
+  street: Falkstrasse 5
+  zipcode: 12345
+  city: Frankfurt
+speaker: Thorsten Ball
+topic: Virtual Brainfuck Machine in Go
+description: |
+               18:00 - 18:30 Meet & Greet
+               18:30 - 19:00 Talk about a Virtual Brainfuck Machine in Go by Thorsten Ball
+               19:00 - 19:30 Round table discussion, "show the code" sessions, programming
+               
+               Hey Gophers,
+               we are active again after a break and are happy to announce the next Frankfurt Gopher meetup.
+               You are welcome with every amount of Go programming experience. So feel welcome to join us as a beginner and as an expert as well.
+               We are currently not providing food at the meeting. So be prepared and grab a sandwich before coming to us or join others after the meeting for a dinner. They are plenty opportunities around our location.
+               Looking forward to meet you
