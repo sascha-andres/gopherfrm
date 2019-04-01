@@ -1,0 +1,10 @@
+<h2>{{ index . "name" }}</h2>
+
+<code>
+{{ index . "street" }}<br />
+{{ index . "zipcode" }} {{ index . "city" }}
+</code>
+
+{{ if ne (index . "twitter") "" }}
+<br /><br /><a href="https://twitter.com/{{ index . "twitter" }}"><i class="fa fa-twitter-square fa-2"></i></a>
+{{ end }}
