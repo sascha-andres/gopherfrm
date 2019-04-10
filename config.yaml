@@ -37,6 +37,9 @@ menu:
   main:
   - name: support us
     url: "/support"
+    weight: 10
+  - name: hosts
+    url: "/hosts"
     weight: 4
   - name: join
     url: "/join"
