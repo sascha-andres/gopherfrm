@@ -4,6 +4,9 @@ languageCode: en-us
 title: Frankfurt Rhein-Main Gophers Meetup
 theme: hugo-initio
 params:
+  google:
+    analytics:
+      trackerID:
   description: Meetup group in Frankfurt/Germany
   homepage: https://gophersfrm.netlify.com/
   DateForm: January 2, 2006
